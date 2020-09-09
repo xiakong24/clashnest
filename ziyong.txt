@@ -292,7 +292,7 @@ https?://link.zhihu.com/?target= url script-request-header https://raw.githubuse
 
 # 知音漫客VIP (By mieqq)
 ;^https://getuserinfo-globalapi.zymk.cn/app_api/v5/(getuserinfo|coin_account|getuserinfo_ticket|getcomicinfo)/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Zymh.js
-^https://getuserinfo-globalapi.zymk.cn/app_api/v5/(getuserinfo|coin_account|getuserinfo_ticket|getcomicinfo)/ url script-response-body https://raw.githubusercontent.com/xiakong24/Tampletest/master/Script/Zymh.js
+^https://getuserinfo-globalapi.zymk.cn/app_api/v5/getcomicinfo/ url script-response-body https://raw.githubusercontent.com/xiakong24/Tampletest/master/Script/zymk.js
 
 
 #【 Tide.listStrong Stain Removal】
