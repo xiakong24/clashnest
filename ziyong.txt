@@ -291,7 +291,7 @@ https://api.zhihu.com/v4/questions url script-response-body https://raw.githubus
 https?://link.zhihu.com/?target= url script-request-header https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20link.js
 
 # 知音漫客VIP (By mieqq)
-^https://getuserinfo-globalapi.zymk.cn/app_api/v5/(getuserinfo|coin_account|getuserinfo_ticket|getcomicinfo)/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Zymh.js
+;^https://getuserinfo-globalapi.zymk.cn/app_api/v5/(getuserinfo|coin_account|getuserinfo_ticket|getcomicinfo)/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Zymh.js
 ^https://getcomicinfo-globalapi.zymk.cn/app_api/v5/getcomicinfo/ url script-response-body https://raw.githubusercontent.com/xiakong24/Tampletest/master/Script/zymk.js
 
 
