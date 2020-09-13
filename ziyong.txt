@@ -295,7 +295,7 @@ https?://link.zhihu.com/?target= url script-request-header https://raw.githubuse
 ^https://getuserinfo-globalapi.zymk.cn/app_api/v5/getuserinfo/ url script-response-body https://raw.githubusercontent.com/xiakong24/Tampletest/master/Script/zymk_getuserinfo.js
 ^https://getuserinfo-globalapi.zymk.cn/app_api/v5/coin_account/ url script-response-body https://raw.githubusercontent.com/xiakong24/Tampletest/master/Script/zymk_coin_account.js
 ^https://getuserinfo-globalapi.zymk.cn/app_api/v5/getuserinfo_ticket/ url script-response-body https://raw.githubusercontent.com/xiakong24/Tampletest/master/Script/zymk_getuserinfo_ticket.js
-^https://getuserinfo-globalapi.zymk.cn/app_api/v5/getcomicinfo/ url script-response-body https://raw.githubusercontent.com/xiakong24/Tampletest/master/Script/zymk_getcomicinfo.js
+^https://getcomicinfo-globalapi.zymk.cn/app_api/v5/getcomicinfo/ url script-response-body https://raw.githubusercontent.com/xiakong24/Tampletest/master/Script/zymk_getcomicinfo.js
 
 #【 Tide.listStrong Stain Removal】
 
