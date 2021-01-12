@@ -15,7 +15,7 @@ const shareCodes = [
     jxgc: $.getdata("jx_shareCode100") || "Xi6PP5fFjTBPRIF_o8anwA==",
     fkjoy: $.getdata("jx_shareCode100") || "gmcT4a-J33cinNvJy2_pcqt9zd5YaBeE",
     jdzz: $.getdata("jx_shareCode100") || "S5KkcRBwaplDRJR6lkvUOdg",
-    jdcrash: $.getdata("jx_shareCode100") || "eU9YaO6xNfgg9GqEzXEX1A",
+    jdcash: $.getdata("jx_shareCode100") || "eU9YaO6xNfgg9GqEzXEX1A",
   },
   {
     zd: $.getdata("zd_shareCode200") || "gcdr655xfdjq77pm66mwjlid7anjus7fabs4nfq",
@@ -25,7 +25,7 @@ const shareCodes = [
     jxgc: $.getdata("jx_shareCode200") || "gd-NLbwOb_MCaWAGqPeAcw==",
     fkjoy: $.getdata("jx_shareCode200") || "qpL6AVBwhd4LoSHPJ4x2Aw==",
     jdzz: $.getdata("jx_shareCode200") || "S5KkcO2tZpgupYUGi9IBQ",
-    jdcrash: $.getdata("jx_shareCode100") || "eU9YF5nyNaNYsDWDqwRJ",
+    jdcash: $.getdata("jx_shareCode100") || "eU9YF5nyNaNYsDWDqwRJ",
   },
 ];
 $.result = [];
@@ -34,7 +34,7 @@ $.random = Math.floor(Math.random() * 60);
 !(async () => {
   console.log(`\n此脚本延迟${$.random}秒执行\n`);
   for (let i = 0; i < shareCodes.length; i++) {
-    const { zd, nc, mc, ddgc, jxgc, fkjoy, jdzz, jdcrash } = shareCodes[i];
+    const { zd, nc, mc, ddgc, jxgc, fkjoy, jdzz, jdcash } = shareCodes[i];
     await $.wait($.random);
     zd &&
       (await create(
@@ -77,9 +77,9 @@ $.random = Math.floor(Math.random() * 60);
         `https://code.chiang.fun/api/v1/jd/jdzz/create/${jdzz}/`,
         "京东赚赚"
       ));
-    jdcrach &&
+    jdcach &&
       (await create(
-        `https://code.chiang.fun/api/v1/jd/jdcash/create/${jdcrach}/`,
+        `https://code.chiang.fun/api/v1/jd/jdcash/create/${jdcach}/`,
         "京东签到领现金"
       ));
   }
