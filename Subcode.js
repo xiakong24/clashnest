@@ -34,7 +34,7 @@ $.random = Math.floor(Math.random() * 60);
 !(async () => {
   console.log(`\n此脚本延迟${$.random}秒执行\n`);
   for (let i = 0; i < shareCodes.length; i++) {
-    const { zd, nc, mc, ddgc, jxgc, fkjoy, jdzz } = shareCodes[i];
+    const { zd, nc, mc, ddgc, jxgc, fkjoy, jdzz, jdcrash } = shareCodes[i];
     await $.wait($.random);
     zd &&
       (await create(
